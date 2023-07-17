@@ -2213,7 +2213,7 @@ body.body .text-muted {
     display: block
 }
 
-.item-image-grayscale .item-image {
+/* .item-image-grayscale .item-image {
     display: block;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
@@ -2231,7 +2231,7 @@ body.body .text-muted {
 .item-image-grayscale.selected .item-image {
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%)
-}
+} */
 
 .speaker-box {
     position: relative;

@@ -466,7 +466,7 @@ ul {
 3.Slider Area Start Here 
 ---------------------------------------*/
 .slider-area {
-  background: url(images/slider/home-sound.jpg) no-repeat center;
+  background: url(images/trailer/one.jpg) no-repeat center;
   background-size: cover;
   width: 100%;
   overflow: hidden;
@@ -5045,7 +5045,7 @@ body.body .text-muted {
   display: block
 }
 
-.item-image-grayscale .item-image {
+/* .item-image-grayscale .item-image {
   display: block;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -5054,7 +5054,7 @@ body.body .text-muted {
   -o-transition: all 0.2s linear 0s;
   -ms-transition: all 0.2s linear 0s;
   transition: all 0.2s linear 0s
-}
+} */
 
 .item-image-grayscale:hover .item-image,
 .item-image-grayscale:focus .item-image,
@@ -8339,7 +8339,7 @@ body.body .text-muted {
   display: block
 }
 
-.item-image-grayscale .item-image {
+/* .item-image-grayscale .item-image {
   display: block;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -8348,7 +8348,7 @@ body.body .text-muted {
   -o-transition: all 0.2s linear 0s;
   -ms-transition: all 0.2s linear 0s;
   transition: all 0.2s linear 0s
-}
+} */
 
 .item-image-grayscale:hover .item-image,
 .item-image-grayscale:focus .item-image,
