@@ -5,7 +5,7 @@
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Zoo | Cinema Rent</title>
+        <title>Royal cinemas</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"> 
@@ -30,6 +30,14 @@
         <link rel="stylesheet" href="style.css">
         <!-- responsive css -->
         <link rel="stylesheet" href="css/responsive.css">
+        <link href="animate.css/animate.min.css" rel="stylesheet" type="text/css">
+        <link href="fontawesome/css/all.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet" type="text/css">
+        <link href="magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+        <link href="pentix/css/pentix.min.css" rel="stylesheet" type="text/css">
+        <link href="css/pex-theme.min.css" rel="stylesheet" type="text/css">
+        <link href="css/pex-live.min.css" rel="stylesheet" type="text/css">
         <!-- modernizr css -->
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
@@ -41,116 +49,37 @@
                     <div class="row">
                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="user-area">
-                          <ul>
-                            <li><a href="#" data-toggle="modal" data-target=".registerpage"> Register</a></li>
-                            <li><a href="#" data-toggle="modal" data-target=".loginpage"> Login</a></li>
-                          </ul>
+                         
                           <!--Register page-->
-                          <div class="modal fade registerpage" tabindex="-1" role="dialog">
-                            <div class="modal-dialog">
-                              <div class="modal-content">
-                                <div class="modal-body registerpage-body  text-center">
-                                  <span class="close-form close" data-dismiss="modal"><i class="fa fa-close"></i></span>
-                                  <h1>Register To <span>Zooks</span></h1>
-                                  <p>Already a member? <a href="#"> Sign In</a></p>
-                                  <div class="btn-login-with">
-                                    <span><i class="fa fa-facebook"></i></span>
-                                    <a href="#">Register with Facebook</a>
-                                  </div>
-                                  <form>
-                                    <fieldset>
-                                      <input type="email" placeholder="E-mail Address"/>
-                                      <input type="password" placeholder="Password"/>
-                                      <label>At least 6 characters.</label>
-                                      <button type="submit">Register <span><i class="fa fa-chevron-circle-right"></i></span></button>
-                                    </fieldset>
-                                  </form>
-                                  <img src="images/register.jpg" alt=""/>
-                                  <div class="form-footer">
-                                    <p>Continue and create account after <i class="fa fa-chevron-circle-right"></i></p>
-                                  </div>
-                              </div>
-                              </div>
-                            </div>
-                          </div>
+                         
                           <!--End: Register page-->
                           <!--login page-->
-                          <div class="modal fade loginpage" tabindex="-1" role="dialog">
-                            <div class="modal-dialog modal-lg">
-                              <div class="modal-content">
-                                <div class="modal-body loginpage-body  text-center">
-                                  <span class="close-form close" data-dismiss="modal"><i class="fa fa-close"></i></span>
-                                  <h1>Sign In To <span>Zooks</span> Cinema</h1>
-                                  <p>In order to buy your entries please sign in</p>
-                                  <div class="login-left">
-                                    <div class="btn-login-with">
-                                      <span><i class="fa fa-facebook"></i></span>
-                                      <a href="#">Connect with Facebook</a>
-                                    </div>
-                                    <form>
-                                      <fieldset>
-                                        <input type="email" placeholder="E-mail Address"/>
-                                        <input type="password" placeholder="Password"/>
-                                        <button type="submit">Register <span><i class="fa fa-chevron-circle-right"></i></span></button>
-                                        <a href="#" class="short-link">Forgot Password?</a>
-                                      </fieldset>
-                                    </form>
-                                    <a href="#" class="short-link">Not a member already?</a>
-                                    <div class="btn-login-with">
-                                      <span><i class="fa fa-facebook"></i></span>
-                                      <a href="#">Register with Facebook</a>
-                                    </div>
-                                    <form>
-                                      <fieldset>
-                                        <button type="submit">Register <span><i class="fa fa-chevron-circle-right"></i></span></button>
-                                      </fieldset>
-                                    </form>
-                                  </div>
-                                  <div class="login-right">
-                                    <img src="images/login.jpg" alt="login">
-                                  </div>
-                                  <div class="form-footer">
-                                    <p>Continue and create account after <i class="fa fa-chevron-circle-right"></i></p>
-                                  </div>
-                              </div>
-                              </div>
-                            </div>
-                          </div>
+                          
+                           
                           <!--End: login page-->
                         </div>
                       </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <!-- <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                             <div class="logo-area">
                                 <a href="index.html"><img src="images/logo.png" alt=""></a>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="col-lg-8 col-md-8 col-sm-11 col-xs-11">
                             <div class="main-menu">
                                 <nav>
                                     <ul>
                                         <li><a href="index.html">Home</a></li>
-                                        <li><a href="trailers.html">Trailers</a></li>
-                                        <li><a href="shows.html">Shows</a></li>
-                                        <li class="active"><a href="rent.html">Rent The Cinema</a></li>
-                                        <li><a href="#">Pages</a>
-                                            <ul>
-                                                <li><a href="show-details.html">Show Details</a></li>
-                                                <li><a href="buy-movie-ticket.html">Purchase Your Entry</a></li>
-                                                <li><a href="calender.html">Movie Calender</a></li>
-                                            </ul>
-                                        </li>
+                                        <li class="active"><a href="rent.html">About</a></li>
+                                       
+                                       
                                         <li><a href="contact.html">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>
                         </div>
-                        <div class="col-xs-1">
-                            <div class="header-right">            
-                                <div class="search-area"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></div> 
-                            </div>
-                        </div>
+                      
                     </div>
                 </div>
             </div> 
@@ -160,42 +89,20 @@
                         <div class="col-md-12">
                              <div class="mobile-menu">
                                 <nav id="dropdown">
-                                    <ul>
-                                        <li class="active"><a href="index.html">Home</a></li>
-                                        <li><a href="trailers.html">Trailers</a></li>
-                                        <li><a href="shows.html">Shows</a></li>
-                                        <li><a href="rent.html">Rent The Cinema</a></li>
-                                        <li><a href="#">Pages</a>
-                                            <ul>
-                                                <li><a href="show-details.html">Show Details</a></li>
-                                                <li><a href="buy-movie-ticket.html">Purchase Your Entry</a></li>
-                                                <li><a href="calender.html">Movie Calender</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                    </ul>
+                                  <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li class="active"><a href="rent.html">About</a></li>
+                                   
+                                   
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
                                 </nav>
                             </div>          
                         </div>
                     </div>
                 </div>
             </div>            
-            <div class="search-box-area">
-                <div class="container">
-                      <div class="row">                          
-                          <div class="search-form">
-                              <form>
-                                  <div class="col-sm-12">
-                                      <div class="form-group">
-                                          <input type="text" class="form-control" placeholder="Search Here...">
-                                          <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                      </div>
-                                  </div>
-                              </form>
-                          </div>
-                      </div>
-                  </div>              
-            </div>
+           
         </header>
         <!-- Header End Here -->
         <!-- Breadcumb Area Start Here -->
@@ -208,7 +115,7 @@
                         <div class="breadcumb">
                             <ul>
                                 <li><a href="index.html">Home <i class="fa fa-angle-right" aria-hidden="true"></i> </a></li>
-                                <li>Cinema Rental</li>
+                                <li style="color: #f26521;">About</li>
                             </ul>
                         </div>
                     </div>
@@ -217,287 +124,190 @@
         </div>
         <!-- Breadcumb Area End Here -->
         <!-- Movie Show Search Box Start Here -->
-        <div class="movies-show-area">
-            <div class="container">
-                <div class="row">
-                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                         <div class="movies-show-title">
-                             <h2>What Kind or Rental Are You Looking For?</h2>
-                         </div>
-                     </div>
-                </div>
-            </div>
-        </div>
-        <!-- Movie Show Search Box End Here -->
-        <!-- Rent Cinema start Here -->
-        <div class="rent-cinema-area">
+        <section class="muted-bg solid-section" id="about">
           <div class="container">
-            <div class="row">
-               <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <div class="birthday">
-                  <a href="#" class="birthday-image"><img src="images/rent/1.jpg" alt=""></a>
-                  <div class="birthday-details">
-                      <h1>Birthday</h1>
-                      <p>Just have fun!</p>
-                      <a href="#">Select This One</a>
-                  </div>
-                </div>
-               </div>
-               <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                 <div class="birthday">
-                  <a href="#" class="birthday-image"><img src="images/rent/2.jpg" alt=""></a>
-                  <div class="birthday-details">
-                      <h1>Other</h1>
-                      <p>Anything you like!</p>
-                      <a href="#">Select This One</a>
-                  </div>
-                </div>
-               </div>
-            </div>
-            <div class="row">
-              <div class="cinema-feature-area">
-                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
-                  <div class="availability-area">
-                    <h3>RATES & AVAILABILITY</h3>
-                    <ul>
-                      <li> <img src="images/tik.png" alt="">$325 fee for up to <span>40 guests</span> (including adults)</li>
-                      <li> <img src="images/tik.png" alt="">$375 fee for over <span>40 guests and up to 65 guests</span> (adults also)</li>
-                      <li> <img src="images/tik.png" alt="">Available <span>Saturdays & Sundays</span> from 9:00am-12:00pm</li>
-                      <li> <img src="images/tik.png" alt="">Availability is based on a first come-first served policy</li>
-                      <li> <img src="images/tik.png" alt="">A 25% deposit on a credit card is required to <span>secure</span> the date</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-                  <div class="product-price">
-                    <h3> <img src="images/home.png" alt=""> Included in the Price</h3>
-                    <ul>
-                      <li>Theater for the <span>film & the lobby</span> for the party</li>
-                      <li>One <span>small popcorn & one small fountain soda</span> for the film ONLY</li>
-                      <li>One 8-foot table and one 6-foot table  and <span>(push together to make one long table)</span> two 6-foot tables, plus chairs</li>
-                    </ul>
-                  </div>
-                </div>
+              <div class="section-head offs-lg text-center container-md">
+                  <h2 class="section-title text-upper text-lg">About us</h2>
+                  <div class="styled-separator"><img src="images/icons/separator-black.png" alt=""></div>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="page-banner-area">
-                  <img src="images/pagebanner.png" alt="">
-                  <div class="banner-content">
-                    <h1>You <span>Should</span> Provide:</h1>
-                    <ul>
-                      <li>A movie on DVD or Blu-ray</li>
-                      <li>Cake, food and drinks for after the film</li>
-                      <li>Plates, utensils, napkins, table cloths, etc</li>
-                      <li>Party favors and decorations</li>
-                    </ul>
-                  </div>
-                </div> 
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="show-ticket-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                      <div class="ticket-form">
-                          <div class="contact-details">
-                            <h2>Rent <span>Zooks </span> Only For You</h2> 
-                            <p>Please fill out the form below:</p>                             
-                            <form>
-                              <fieldset>
-                                <div class="col-sm-6">
-                                  <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="First Name">
-                                  </div>
-                                </div>
-                                <div class="col-sm-6">
-                                  <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Last Name">
-                                  </div>
-                                </div>
-                                <div class="col-sm-6">
-                                  <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Phone">
-                                  </div>
-                                </div>
-                                <div class="col-sm-6">
-                                  <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="E-mail Address">
-                                  </div>
-                                </div>                                
-                                <div class="col-sm-6">
-                                  <div class="form-group">
-                                    <select class="form-control">
-                                      <option>City</option>
-                                      <option>Dhaka</option>
-                                      <option>Kolkata</option>
-                                    </select>
-                                  </div>
-                                </div>                               
-                                <div class="col-sm-6">
-                                  <div class="form-group">
-                                    <select class="form-control">
-                                      <option>State</option>
-                                      <option>Banladesh</option>
-                                      <option>India</option>
-                                    </select>
-                                  </div>
-                                </div>
-                                <div class="col-sm-6">
-                                  <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Zip">
-                                  </div>
-                                </div>
-                                <div class="col-sm-6">
-                                  <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Preferred Date">
-                                    <i class="fa fa-calendar" aria-hidden="true"></i>
-                                  </div>
-                                </div>
-                                <div class="col-sm-12">
-                                  <div class="form-group">
-                                    <textarea rows="5" placeholder="Comments"></textarea>
-                                  </div>
-                                </div>
-                                <div class="col-sm-12">
-                                  <div class="form-group">
-                                    <div class="connected-area">
-                                      <div class="checkbox">
-                                        <label>
-                                          <button class="btn-green done" type="submit">Submit Now <i class="fa fa-angle-right" aria-hidden="true"></i></button>
-                                        </label>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </fieldset>
-                            </form>
+              <div class="items">
+                  <div class="item item-image-grayscale center-image-left">
+                      <div class="item-image-wrap">
+                          <div class="speaker-box">
+                              <div class="speaker"></div>
+                              <div class="screw top left"></div>
+                              <div class="screw top right"></div>
+                              <div class="screw bottom left"></div>
+                              <div class="screw bottom right"></div>
+                          </div>
+                          <div class="item-image">
+                              <div class="item-round"><img src="images/items/story1.jpg" alt="" data-cover-image="true">
+                              </div>
                           </div>
                       </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                      <div class="item-content">
+                        <div class="item-head">
+                          <div class="item-date">Welcome to Royal Cinemas </div>
+                         
+                      </div>
+                          <div class="item-text">your premier destination for transforming your home entertainment into an extraordinary cinematic journey. With an unwavering commitment to delivering unparalleled expertise and a personalized touch, we specialize in crafting bespoke home theater systems that harmoniously merge cutting-edge technology, luxurious comfort, and captivating style. Get ready to immerse yourself in a world of unparalleled visual and audio bliss as we bring the magic of the movies right to your doorstep.
+                          </div>
+                      </div>
+                  </div>
+                  <div class="items-vertical-separator"></div>
+                  <div class="item item-image-grayscale center-image-right">
+                      <div class="item-image-wrap">
+                          <div class="speaker-box">
+                              <div class="speaker"></div>
+                              <div class="screw top left"></div>
+                              <div class="screw top right"></div>
+                              <div class="screw bottom left"></div>
+                              <div class="screw bottom right"></div>
+                          </div>
+                          <div class="item-image">
+                              <div class="item-round"><img src="images/items/story2.jpg" alt="" data-cover-image="true">
+                              </div>
+                          </div>
+                      </div>
+                      <div class="item-content">
+                        <div class="item-head">
+                          <div class="item-date">A Personalized Approach to Home Cinemas</div>
+                         
+                      </div>
+                          <div class="item-text">At Royal Cinemas, we understand that no two individuals or spaces are alike, which is why we take a personalized approach to every home cinema project we undertake. Our team of dedicated experts collaborates closely with you to grasp your unique vision, preferences, and requirements. Whether you desire a sleek and modern design or a classic and opulent ambiance, we delve into the intricacies of your dream cinematic sanctuary.
+                          </div>
+                      </div>
+                  </div>
+                  <div class="items-vertical-separator"></div>
+                  <div class="item item-image-grayscale center-image-left">
+                      <div class="item-image-wrap">
+                          <div class="speaker-box">
+                              <div class="speaker"></div>
+                              <div class="screw top left"></div>
+                              <div class="screw top right"></div>
+                              <div class="screw bottom left"></div>
+                              <div class="screw bottom right"></div>
+                          </div>
+                          <div class="item-image">
+                              <div class="item-round"><img src="images/items/story3.jpg" alt="" data-cover-image="true">
+                              </div>
+                          </div>
+                      </div>
+                      <div class="item-content">
+                          <div class="item-head">
+                              <div class="item-date">Unmatched Expertise and Innovation</div>
+                             
+                          </div>
+                          <div class="item-text">With years of industry experience and an unwavering commitment to staying at the forefront of technology, Royal Cinemas is proud to offer an unmatched level of expertise and innovation. We meticulously curate a vast range of cutting-edge audiovisual equipment, acoustic solutions, and home automation systems, ensuring that every element of your home theater setup is meticulously chosen to deliver an unparalleled entertainment experience.
+                          </div>
+                      </div>
+                  </div>
+                  <div class="items-vertical-separator"></div>
+                  <div class="item item-image-grayscale center-image-right">
+                      <div class="item-image-wrap">
+                          <div class="speaker-box">
+                              <div class="speaker"></div>
+                              <div class="screw top left"></div>
+                              <div class="screw top right"></div>
+                              <div class="screw bottom left"></div>
+                              <div class="screw bottom right"></div>
+                          </div>
+                          <div class="item-image">
+                              <div class="item-round"><img src="images/items/story2.jpg" alt="" data-cover-image="true">
+                              </div>
+                          </div>
+                      </div>
+                      <div class="item-content">
+                        <div class="item-head">
+                          <div class="item-date">Discover the Royal Cinemas Difference:
+                          </div>
+                         
+                      </div>
+                          <div class="item-text">When you choose Royal Cinemas, you embark on a journey where luxury and entertainment intertwine to create an experience like no other. From the initial consultation to the final installation, we strive for excellence in every aspect of our service. We take pride in our attention to detail, unwavering dedication, and commitment to surpassing your expectations.
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+        <!-- Movie Show Search Box End Here -->
+        <!-- Rent Cinema start Here -->
+          </div>
+       
         <!-- Rent Cinema end Here -->
         <!-- Zooks Promos Start Here -->
-        <div class="zooks-promos-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="section-title">
-                            <h2><span>Zooks</span> Promos</h2>
-                            <p>Weekly Zooks <strong>promotional</strong> ads!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="total-promos-area">
-                            <div class="single-promos">
-                                <a href="#"><img src="images/promos/1.jpg" alt=""></a>
-                            </div>
-                            <div class="single-promos">
-                                <a href="#"><img src="images/promos/2.jpg" alt=""></a>
-                            </div>
-                            <div class="single-promos">
-                                <a href="#"><img src="images/promos/3.jpg" alt=""></a>
-                            </div>
-                            <div class="single-promos">
-                                <a href="#"><img src="images/promos/1.jpg" alt=""></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
         <!-- Zooks Promos End Here -->
         <!-- Footer Start Here -->
         <footer>
-            <div class="footer-top-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 text-center">                            
-                            <div class="widget">
-                                <div class="footer-one">
-                                    <a href="index.html"><img src="images/footer-logo.png" alt=""></a>
-                                    <p>38 Ruckman Road Oklahoma City, OK </p>
-                                    <p>Ph: <strong>(123) 456-2120</strong> </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">                            
-                            <div class="widget">
-                                <div class="footer-two">
-                                    <div class="widget-title">Zooks Cinema</div>
-                                    <ul>
-                                        <li><a href="trailers.html">Trailers</a></li>
-                                        <li><a href="shows.html">Movies & Shows</a></li>
-                                        <li><a href="rent.html">Rent the Theatre</a></li>
-                                        <li><a href="show-details.html">Movie Single Post</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">                            
-                            <div class="widget">
-                                <div class="footer-three">
-                                    <div class="widget-title">Our App</div>
-                                    <ul>
-                                        <li><a href="#"><img src="images/icon/1.png" alt=""> <span>iPhone</span> App</a></li>
-                                        <li><a href="#"><img src="images/icon/2.png" alt=""> <span>Androd</span> App</a></li>
-                                        <li><a href="#"><img src="images/icon/3.png" alt=""> <span>iPad</span> App</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">                            
-                            <div class="widget">
-                                <div class="footer-four">
-                                    <div class="widget-title">Follow Us</div>
-                                    <ul>
-                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
-                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
-                                        <li><a href="#"><i class="fa fa-flickr" aria-hidden="true"></i> Fliker</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">                            
-                            <div class="widget">
-                                <div class="footer-five">
-                                    <div class="widget-title">Flickr Feed</div>
-                                    <ul>
-                                        <li><a href="#"><img src="images/fliker/1.jpg" alt=""></a></li>
-                                        <li><a href="#"><img src="images/fliker/2.jpg" alt=""></a></li>
-                                        <li><a href="#"><img src="images/fliker/3.jpg" alt=""></a></li>
-                                        <li><a href="#"><img src="images/fliker/4.jpg" alt=""></a></li>
-                                        <li><a href="#"><img src="images/fliker/5.jpg" alt=""></a></li>
-                                        <li><a href="#"><img src="images/fliker/6.jpg" alt=""></a></li>
-                                        <li><a href="#"><img src="images/fliker/7.jpg" alt=""></a></li>
-                                        <li><a href="#"><img src="images/fliker/8.jpg" alt=""></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                            <div class="footer-text">
-                                <p>Zooks <i class="flaticon-shapes"></i> by envalab</p>
-                            </div>
-                        </div>                        
-                    </div>
-                </div>
-            </div>
-        </footer>
+          <div class="footer-top-area">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-3 col-md-2 col-sm-4 col-xs-12 text-center">                            
+                          <div class="widget">
+                              <div class="footer-one">
+                                  <a href="index.html"><img src="images/imagenew/amplifier.jpg" alt=""></a>
+                                  <p>Vytila </p>
+                                  <p><a href="tel:+919645199333">+919645199333</a></strong> </p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-3 col-md-2 col-sm-4 col-xs-12">                            
+                          <div class="widget">
+                              <div class="footer-two">
+                                  <div style="color: #f26521;" class="widget-title">Royal Cinema</div>
+                                  <ul>
+                                      <li><a href="">About</a></li>
+                                      <li><a href="">Services</a></li>
+                                      <li><a href="">Gallery</a></li>
+                                      <li><a href="">Contact us</a></li>
+                                     
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-3 col-md-2 col-sm-4 col-xs-12">                            
+                          <div class="widget">
+                              <div class="footer-three">
+                                  <div style="color: #f26521;" class="widget-title">Our Sevices</div>
+                                  <ul>
+                                      <li><a href="">About</a></li>
+                                      <li><a href="">Services</a></li>
+                                      <li><a href="">Gallery</a></li>
+                                      <li><a href="">Contact us</a></li>
+                                     
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-3 col-md-2 col-sm-6 col-xs-12">                            
+                          <div class="widget">
+                              <div style="color: #f26521;" class="footer-four">
+                                  <div style="color: #f26521;" class="widget-title">Follow Us</div>
+                                  <ul>
+                                      <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+                                      <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+                                      <li><a href="#"><i class="fa fa-flickr" aria-hidden="true"></i> Fliker</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                    
+                  </div>
+              </div>
+          </div>
+          <div class="footer-bottom" style="background-color: #f26521;">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                          <div class="footer-text" style="background-color: #f26521;">
+                              <p>Royal Cinemas <i class="flaticon-shapes"></i> by <a style="color: #fff;" href="https://www.houseofbranding.in/">HoB</a> </p>
+                          </div>
+                      </div>                        
+                  </div>
+              </div>
+          </div>
+      </footer>
         <!-- Footer End Here -->
         <!-- all js here -->
         <!-- jquery latest version -->

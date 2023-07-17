@@ -471,10 +471,11 @@ ul {
   width: 100%;
   overflow: hidden;
   padding: 290px 0;
+  opacity: 6;
 }
 .slider-area .slider-content .single-slide-content {
   padding: 30px 0;
-  padding-left: 650px;
+  /* padding-left: 650px; */
 }
 .slider-area .slider-content .single-slide-content h1 {
   font-family: 'Lato', sans-serif;
@@ -994,7 +995,7 @@ footer .footer-top-area .widget .footer-four ul li a i {
   line-height: 30px;
   border-radius: 50%;
   color: #ffffff;
-  background: #f3b832;
+  background: #f26521;
   text-align: center;
   margin: auto;
   margin-right: 10px;
@@ -1002,7 +1003,7 @@ footer .footer-top-area .widget .footer-four ul li a i {
 footer .footer-top-area .widget .footer-five .widget-title {
   font-size: 18px;
   font-family: 'Lato', sans-serif;
-  color: #a17207;
+  color: #f26521;
   font-weight: 800;
   margin-bottom: 20px;
 }
@@ -1055,7 +1056,8 @@ footer .footer-bottom .footer-text p i {
   padding: 0 10px;
 }
 #header {
-  background-image: url("images/bread.png");
+  /* background-image: url("images/bread.png"); */
+  background-color: #f26521;
   background-position: center center;
   background-size: cover;
   height: 140px;
