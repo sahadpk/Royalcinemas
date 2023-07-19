@@ -1,34 +1,35 @@
 <!doctype html>
 <html class="no-js" lang="en">
-    
+
 <!-- Mirrored from soyonexpress.com/html-demos/zooks/theme/cinema/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Jul 2023 10:28:08 GMT -->
+
 <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Royal cinemas</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"> 
-        <link rel="apple-touch-icon" href="images/favicon.ico">
-        <!-- Place favicon.ico in the root directory -->
-        <!-- all css here -->
-        <!-- bootstrap v3.3.6 css -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <!-- animate css -->
-        <link rel="stylesheet" href="css/animate.css">
-        <!-- flaticon css -->
-        <link rel="stylesheet" href="css/flaticon.css">
-        <!-- jquery-ui.min css -->
-        <link rel="stylesheet" href="css/jquery-ui.min.css">
-        <!-- meanmenu css -->
-        <link rel="stylesheet" href="css/meanmenu.min.css">
-        <!-- owl.carousel css -->
-        <link rel="stylesheet" href="css/owl.carousel.css">
-        <!-- font-awesome css -->
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <!-- style css -->
-        <link rel="stylesheet" href="style.css">
-        <link href="animate.css/animate.min.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Royal cinemas</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/favicon.ico">
+    <!-- Place favicon.ico in the root directory -->
+    <!-- all css here -->
+    <!-- bootstrap v3.3.6 css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- flaticon css -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <!-- jquery-ui.min css -->
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <!-- meanmenu css -->
+    <link rel="stylesheet" href="css/meanmenu.min.css">
+    <!-- owl.carousel css -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <!-- font-awesome css -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css">
+    <link href="animate.css/animate.min.css" rel="stylesheet" type="text/css">
     <link href="fontawesome/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet" type="text/css">
@@ -36,126 +37,174 @@
     <link href="pentix/css/pentix.min.css" rel="stylesheet" type="text/css">
     <link href="css/pex-theme.min.css" rel="stylesheet" type="text/css">
     <link href="css/pex-live.min.css" rel="stylesheet" type="text/css">
-        <!-- responsive css -->
-        <link rel="stylesheet" href="css/responsive.css">
-        <!-- modernizr css -->
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-        <!-- Header Start Here -->
-        <header>
-            <div class="header-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                            <!-- <div class="logo-area">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- modernizr css -->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <!-- Header Start Here -->
+    <header>
+        <div class="header-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <!-- <div class="logo-area">
                                 <a href="index.html"><img src="images/logo.png" alt=""></a>
                             </div> -->
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-11 col-xs-11">
+                        <div class="main-menu">
+                            <nav>
+                                <ul>
+                                    <li class="active"><a href="index.html">Home</a></li>
+                                    <li><a href="rent.html">About</a></li>
+
+                                    <li><a href="">Contact</a></li>
+                                </ul>
+                            </nav>
                         </div>
-                        <div class="col-lg-8 col-md-8 col-sm-11 col-xs-11">
-                            <div class="main-menu">
-                                <nav>
-                                    <ul>
-                                        <li class="active"><a href="index.html">Home</a></li>
-                                        <li><a href="rent.html">About</a></li>
-                                     
-                                        <li><a href="">Contact</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                        <div class="col-xs-1">
-                            <div class="header-right">            
-                                <div class="search-area"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></div> 
-                            </div>
+                    </div>
+                    <div class="col-xs-1">
+                        <div class="header-right">
+                          
+
+                            <!-- Rounded switch -->
+                            <label class="switch">
+                                <input id="langMode"  type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+
                         </div>
                     </div>
                 </div>
-            </div> 
-            <div class="mobile-menu-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                             <div class="mobile-menu">
-                                <nav id="dropdown">
-                                    <ul>
-                                        <li class="active"><a href="index.html">Home</a></li>
-                                        <li><a href="rent.html">About</a></li>
-                                        
-                                        <li><a href="">Contact</a></li>
-                                       
-                                    </ul>
-                                </nav>
-                            </div>          
+            </div>
+        </div>
+        <div class="mobile-menu-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="mobile-menu">
+                            <li> <label class="switch">
+                                <input id="langMode"  type="checkbox">
+                                <span class="slider round"></span>
+                            </label></li>
+                            <nav id="dropdown">
+                                <ul>
+                                    <li class="active"><a href="index.html">Home</a></li>
+                                    <li><a href="rent.html">About</a></li>
+
+                                    <li><a href="contact.html">Contact</a></li>
+
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-xs-1">
+                        <div class="header-right">
+                          
+
+                            <!-- Rounded switch -->
+                           
+
                         </div>
                     </div>
                 </div>
-            </div>            
-           
-        </header>
-        <!-- Header End Here -->
-        <!-- Slider Area Start Here -->
-        <div class="slider-area">
-            <div class="slider-bg">
-              <div class="container">
+            </div>
+        </div>
+
+    </header>
+    <!-- Header End Here -->
+    <!-- Slider Area Start Here -->
+    <div class="slider-area">
+
+        <div class="slider-bg">
+            <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="slider-content">
                             <div class="single-slide-content">
-                                <h1 class="wow zoomIn text-uppercase text-white  animated" data-wow-duration="0.3s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 0.3s; animation-delay: 0.3s; animation-name: zoomIn;">Your Home</h1>
-                                <h2 class="wow zoomIn text-white text-uppercase  animated" data-wow-duration="0.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: zoomIn;">Your Private Cinema</h2>
-                               
+                                <h1 class="wow zoomIn text-uppercase text-white  animated" data-wow-duration="0.3s"
+                                    data-wow-delay="0.3s"
+                                    style="visibility: visible; animation-duration: 0.3s; animation-delay: 0.3s; animation-name: zoomIn;">
+                                    Your Home</h1>
+                                <h2 class="wow zoomIn text-white text-uppercase  animated" data-wow-duration="0.5s"
+                                    data-wow-delay="0.5s"
+                                    style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: zoomIn;">
+                                    Your Private Cinema</h2>
+
                             </div>
                             <div class="single-slide-content">
-                                <h1 class="wow zoomIn text-uppercase text-white  animated" data-wow-duration="0.3s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 0.3s; animation-delay: 0.3s; animation-name: zoomIn;">Cinematic Magic</h1>
-                                <h2 class="wow zoomIn text-white text-uppercase  animated" data-wow-duration="0.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: zoomIn;"> Right at Home</h2>
-                                
+                                <h1 class="wow zoomIn text-uppercase text-white  animated" data-wow-duration="0.3s"
+                                    data-wow-delay="0.3s"
+                                    style="visibility: visible; animation-duration: 0.3s; animation-delay: 0.3s; animation-name: zoomIn;">
+                                    Cinematic Magic</h1>
+                                <h2 class="wow zoomIn text-white text-uppercase  animated" data-wow-duration="0.5s"
+                                    data-wow-delay="0.5s"
+                                    style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: zoomIn;">
+                                    Right at Home</h2>
+
                             </div>
                             <div class="single-slide-content">
-                                <h1 class="wow zoomIn text-uppercase text-white  animated" data-wow-duration="0.3s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 0.3s; animation-delay: 0.3s; animation-name: zoomIn;">Transforming Spaces</h1>
-                                <h2 class="wow zoomIn text-white text-uppercase  animated" data-wow-duration="0.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: zoomIn;">Creating Experiences</h2>
-                               
+                                <h1 class="wow zoomIn text-uppercase text-white  animated" data-wow-duration="0.3s"
+                                    data-wow-delay="0.3s"
+                                    style="visibility: visible; animation-duration: 0.3s; animation-delay: 0.3s; animation-name: zoomIn;">
+                                    Transforming Spaces</h1>
+                                <h2 class="wow zoomIn text-white text-uppercase  animated" data-wow-duration="0.5s"
+                                    data-wow-delay="0.5s"
+                                    style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: zoomIn;">
+                                    Creating Experiences</h2>
+
                             </div>
                             <div class="single-slide-content">
-                                <h1 class="wow zoomIn text-uppercase text-white  animated" data-wow-duration="0.3s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 0.3s; animation-delay: 0.3s; animation-name: zoomIn;">Step into a World of</h1>
-                                <h2 class="wow zoomIn text-white text-uppercase  animated" data-wow-duration="0.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: zoomIn;">Home Cinema Bliss</h2>
-                                                           </div>
+                                <h1 class="wow zoomIn text-uppercase text-white  animated" data-wow-duration="0.3s"
+                                    data-wow-delay="0.3s"
+                                    style="visibility: visible; animation-duration: 0.3s; animation-delay: 0.3s; animation-name: zoomIn;">
+                                    Step into a World of</h1>
+                                <h2 class="wow zoomIn text-white text-uppercase  animated" data-wow-duration="0.5s"
+                                    data-wow-delay="0.5s"
+                                    style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: zoomIn;">
+                                    Home Cinema Bliss</h2>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
-            
         </div>
-        <!-- about area -->
-        <section class="muted-bg solid-section">
-            <div class="container">
-                <div class="section-head text-center container-md">
-                    <h2 class="section-title text-upper text-lg">About Us</h2>
-                    <div class="styled-separator"><img src="images/imagenew/separator-black.png" alt=""></div>
-                    <!-- <p>SoundFlare offers top notch repairs on all types of sound equipment including speakers,
+
+    </div>
+    <!-- about area -->
+    <section class="muted-bg solid-section">
+        <div class="container">
+            <div class="section-head text-center container-md">
+                <h2 class="section-title text-upper text-lg">About Us</h2>
+                <div class="styled-separator"><img src="images/imagenew/separator-black.png" alt=""></div>
+                <!-- <p>SoundFlare offers top notch repairs on all types of sound equipment including speakers,
                         amplifiers, mixers, microphones, keyboards, wireless systems & more.</p> -->
-                </div>
-                <div class="items">
-                    <div class="item item-image-grayscale side-image-left">
-                        <div class="item-image"><img src="images/trailer/five.jpg" alt="" data-cover-image="true">
-                        </div>
-                        <div class="item-content">
-                            <div class="item-title">Welcome to Royal Cinemas </div>
-                           <p> Your Gateway to Home Theatre Excellence! Indulge in the ultimate cinematic
-                             experience without leaving the comfort of your own home. Our team of experts is dedicated to creating personalized home theatre solutions that bring the magic of the big screen directly to your living space.
-                        </p>
-                        </div>
-                    </div>
-                   
-                   
-                </div>
-               
             </div>
-        </section>
-        <!-- Slider Area End Here -->
-        <!-- Home Page Services Area Here -->
-        <!-- <div class="home-services-area">
+            <div class="items">
+                <div class="item item-image-grayscale side-image-left">
+                    <div class="item-image"><img src="images/trailer/five.jpg" alt="" data-cover-image="true">
+                    </div>
+                    <div class="item-content">
+                        <div class="item-title">Welcome to Royal Cinemas </div>
+                        <p id="aboutpara"> Your Gateway to Home Theatre Excellence! Indulge in the ultimate cinematic
+                            experience without leaving the comfort of your own home. Our team of experts is dedicated to
+                            creating personalized home theatre solutions that bring the magic of the big screen directly
+                            to your living space.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Slider Area End Here -->
+    <!-- Home Page Services Area Here -->
+    <!-- <div class="home-services-area">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -205,215 +254,229 @@
                 </div>
             </div>
         </div> -->
-        <!-- Home Page Services End Here -->
-        <!-- Upcoming Movie Start here -->
-       
-        <section class="muted-bg solid-section">
-            <div class="container">
-                <div class="smart-container">
-                    <div class="rows-lg cols-lg row">
-                        <div class="sm-col-6 md-col-4">
-                            <div class="feature-solid-heading feature">
-                                <div class="item-icon"><img class="image" src="images/imagenew/separator-white.png" alt="">
-                                </div>
-                                <div class="item-content">
-                                    <h2 class="text-upper item-title">Our Services</h2>
-                                    
-                                </div>
+    <!-- Home Page Services End Here -->
+    <!-- Upcoming Movie Start here -->
+
+    <section class="muted-bg solid-section">
+        <div class="container">
+            <div class="smart-container">
+                <div class="rows-lg cols-lg row">
+                    <div class="sm-col-6 md-col-4">
+                        <div class="feature-solid-heading feature">
+                            <div class="item-icon"><img class="image" src="images/imagenew/separator-white.png" alt="">
+                            </div>
+                            <div class="item-content">
+                                <h2 class="text-upper item-title">Our Services</h2>
+
                             </div>
                         </div>
-                        <div class="sm-col-6 md-col-4">
-                            <div class="feature feature-solid">
-                                <div class="item-icon"><img class="image" src="images/imagenew/quality-service.png" alt="">
-                                </div>
-                                <div class="item-content">
-                                    <div class="text-upper item-title">Custom Home Theatre Design</div>
-                                    <p class="item-text">Your cinematic dreams, meticulously realized. We create tailored home theatres that complement your style and fulfill your specific requirements. Immerse yourself in a space designed for your ultimate viewing pleasure.</p>
-                                </div>
+                    </div>
+                    <div class="sm-col-6 md-col-4">
+                        <div class="feature feature-solid">
+                            <div class="item-icon"><img class="image" src="images/imagenew/quality-service.png" alt="">
+                            </div>
+                            <div class="item-content">
+                                <div class="text-upper item-title">Custom Home Theatre Design</div>
+                                <p class="item-text">Your cinematic dreams, meticulously realized. We create tailored
+                                    home theatres that complement your style and fulfill your specific requirements.
+                                    Immerse yourself in a space designed for your ultimate viewing pleasure.</p>
                             </div>
                         </div>
-                        <div class="sm-col-6 md-col-4">
-                            <div class="feature feature-solid">
-                                <div class="item-icon"><img class="image" src="images/imagenew/purchase.png" alt=""></div>
-                                <div class="item-content">
-                                    <div class="text-upper item-title">Cutting-Edge Audiovisual Systems</div>
-                                    <p class="item-text">Unleash the power of captivating sights and sounds. Our state-of-the-art sound systems, high-resolution projectors, and advanced screen technologies transport you into a realm of unparalleled audiovisual brilliance.
-                                    </p>
-                                </div>
+                    </div>
+                    <div class="sm-col-6 md-col-4">
+                        <div class="feature feature-solid">
+                            <div class="item-icon"><img class="image" src="images/imagenew/purchase.png" alt=""></div>
+                            <div class="item-content">
+                                <div class="text-upper item-title">Cutting-Edge Audiovisual Systems</div>
+                                <p class="item-text">Unleash the power of captivating sights and sounds. Our
+                                    state-of-the-art sound systems, high-resolution projectors, and advanced screen
+                                    technologies transport you into a realm of unparalleled audiovisual brilliance.
+                                </p>
                             </div>
                         </div>
-                        <div class="sm-col-6 md-col-4">
-                            <div class="feature feature-solid">
-                                <div class="item-icon"><img class="image" src="images/imagenew/welcome.png" alt=""></div>
-                                <div class="item-content">
-                                    <div class="text-upper item-title">Flawless Professional Installation</div>
-                                    <p class="item-text">Sit back, relax, and let our experts work their magic. Our skilled technicians ensure seamless installation, from intricate wiring to equipment configuration. Experience hassle-free perfection, right from the start.
-                                    </p>
-                                </div>
+                    </div>
+                    <div class="sm-col-6 md-col-4">
+                        <div class="feature feature-solid">
+                            <div class="item-icon"><img class="image" src="images/imagenew/welcome.png" alt=""></div>
+                            <div class="item-content">
+                                <div class="text-upper item-title">Flawless Professional Installation</div>
+                                <p class="item-text">Sit back, relax, and let our experts work their magic. Our skilled
+                                    technicians ensure seamless installation, from intricate wiring to equipment
+                                    configuration. Experience hassle-free perfection, right from the start.
+                                </p>
                             </div>
                         </div>
-                        <div class="sm-col-6 md-col-4">
-                            <div class="feature feature-solid">
-                                <div class="item-icon"><img class="image" src="images/imagenew/home.png" alt=""></div>
-                                <div class="item-content">
-                                    <div class="text-upper item-title">Premium Customer Support</div>
-                                    <p class="item-text"> At Royal Cinemas, our commitment to exceptional customer service extends beyond the installation process. We value your satisfaction and are dedicated to providing ongoing support and maintenance for your home theater system. 
-                                    </p>
-                                </div>
+                    </div>
+                    <div class="sm-col-6 md-col-4">
+                        <div class="feature feature-solid">
+                            <div class="item-icon"><img class="image" src="images/imagenew/home.png" alt=""></div>
+                            <div class="item-content">
+                                <div class="text-upper item-title">Premium Customer Support</div>
+                                <p class="item-text"> At Royal Cinemas, our commitment to exceptional customer service
+                                    extends beyond the installation process. We value your satisfaction and are
+                                    dedicated to providing ongoing support and maintenance for your home theater system.
+                                </p>
                             </div>
                         </div>
-                        <div class="sm-col-6 md-col-4">
-                            <div class="feature feature-solid">
-                                <div class="item-icon"><img class="image" src="images/imagenew/instagram.png" alt=""></div>
-                                <div class="item-content">
-                                    <div class="text-upper item-title">Smart Home Integration</div>
-                                    <p class="item-text"> Enjoy the convenience and sophistication of a fully integrated smart home that enhances your cinematic journey and transforms your living space into a technologically advanced sanctuary</p>
-                                </div>
+                    </div>
+                    <div class="sm-col-6 md-col-4">
+                        <div class="feature feature-solid">
+                            <div class="item-icon"><img class="image" src="images/imagenew/instagram.png" alt=""></div>
+                            <div class="item-content">
+                                <div class="text-upper item-title">Smart Home Integration</div>
+                                <p class="item-text"> Enjoy the convenience and sophistication of a fully integrated
+                                    smart home that enhances your cinematic journey and transforms your living space
+                                    into a technologically advanced sanctuary</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        
-        <!-- Upcoming Movie End here -->
-        <!-- Watching Movies Details Start Here -->
-        <section class="main-bg decorated-bg text-center tight solid-section">
-            <div class="container">
-                <div class="cols-md rows-xl row" style="color: #fff;">
-                    <div class="sm-col-3">
-                        <div class="counter">
-                            <div class="counter-title text-upper">Happy client</div>
-                            <div class="counter-value text-upper" data-waypoint-counter="9720">9720</div>
-                        </div>
+
+    <!-- Upcoming Movie End here -->
+    <!-- Watching Movies Details Start Here -->
+    <section class="main-bg decorated-bg text-center tight solid-section">
+        <div class="container">
+            <div class="cols-md rows-xl row" style="color: #fff;">
+                <div class="sm-col-3">
+                    <div class="counter">
+                        <div class="counter-title text-upper">Happy client</div>
+                        <div class="counter-value text-upper" data-waypoint-counter="9720">9720</div>
                     </div>
-                    <div class="sm-col-3">
-                        <div class="counter">
-                            <div class="counter-title text-upper">Finished Projects</div>
-                            <div class="counter-value text-upper" data-waypoint-counter="4170">4170</div>
-                        </div>
+                </div>
+                <div class="sm-col-3">
+                    <div class="counter">
+                        <div class="counter-title text-upper">Finished Projects</div>
+                        <div class="counter-value text-upper" data-waypoint-counter="4170">4170</div>
                     </div>
-                    <div class="sm-col-3">
-                        <div class="counter">
-                            <div class="counter-title text-upper">Computer Serviced</div>
-                            <div class="counter-value text-upper" data-waypoint-counter="2730">2730</div>
-                        </div>
+                </div>
+                <div class="sm-col-3">
+                    <div class="counter">
+                        <div class="counter-title text-upper">Computer Serviced</div>
+                        <div class="counter-value text-upper" data-waypoint-counter="2730">2730</div>
                     </div>
-                    <div class="sm-col-3">
-                        <div class="counter">
-                            <div class="counter-title text-upper">Mobile Serviced</div>
-                            <div class="counter-value text-upper" data-waypoint-counter="1510">1510</div>
-                        </div>
+                </div>
+                <div class="sm-col-3">
+                    <div class="counter">
+                        <div class="counter-title text-upper">Mobile Serviced</div>
+                        <div class="counter-value text-upper" data-waypoint-counter="1510">1510</div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="content-section" id="portfolio">
-            <div class="section-head text-center container-md">
-                <h2 class="section-title text-upper text-lg">Gallery</h2>
-                <div class="styled-separator"><img src="images/imagenew/separator-black.png" alt=""></div>
-               
-            </div>
-            <div class="large-container">
-                <div class="row">
-                    <div class="sm-col-6 md-col-3"><a class="item image-item item-image-grayscale"
-                            href="images/trailer/eight.jpg" data-lightbox-gallery="items" data-caption="<b 
+    <section class="content-section" id="portfolio">
+        <div class="section-head text-center container-md">
+            <h2 class="section-title text-upper text-lg">Gallery</h2>
+            <div class="styled-separator"><img src="images/imagenew/separator-black.png" alt=""></div>
+
+        </div>
+        <div class="large-container">
+            <div class="row">
+                <div class="sm-col-6 md-col-3"><a class="item image-item item-image-grayscale"
+                        href="images/trailer/eight.jpg" data-lightbox-gallery="items" data-caption="<b 
     
     
     
     >Amplifier Repair</b>&nbsp;-&nbsp;Human tested explanation"><span class="item-image"><img
-                                    src="images/trailer/eight.jpg" alt="" data-cover-image="true"></span><span
-                                class="item-content"><span class="item-back"></span><span class="item-icon"><i
-                                        class="fas fa-search"></i></span><span class="item-title">
-                                    </span><span class="item-text"></span></span></a></div>
-                    <div class="sm-col-6 md-col-3"><a class="item image-item item-image-grayscale"
-                            href="images/trailer/eleven.jpg" data-lightbox-gallery="items" data-caption="<b 
+                                src="images/trailer/eight.jpg" alt="" data-cover-image="true"></span><span
+                            class="item-content"><span class="item-back"></span><span class="item-icon"><i
+                                    class="fas fa-search"></i></span><span class="item-title">
+                            </span><span class="item-text"></span></span></a></div>
+                <div class="sm-col-6 md-col-3"><a class="item image-item item-image-grayscale"
+                        href="images/trailer/eleven.jpg" data-lightbox-gallery="items" data-caption="<b 
     
     
     
-    >Speakers Repair</b>&nbsp;-&nbsp;Human tested explanation"><span class="item-image"><img src="images/trailer/eleven.jpg"
-                                    alt="" data-cover-image="true"></span><span class="item-content"><span
-                                    class="item-back"></span><span class="item-icon"><i
-                                        class="fas fa-search"></i></span><span class="item-title"></span><span class="item-text"></span></span></a></div>
-                    <div class="sm-col-6 md-col-3"><a class="item image-item item-image-grayscale"
-                            href="images/trailer/five.jpg" data-lightbox-gallery="items" data-caption="<b 
+    >Speakers Repair</b>&nbsp;-&nbsp;Human tested explanation"><span class="item-image"><img
+                                src="images/trailer/eleven.jpg" alt="" data-cover-image="true"></span><span
+                            class="item-content"><span class="item-back"></span><span class="item-icon"><i
+                                    class="fas fa-search"></i></span><span class="item-title"></span><span
+                                class="item-text"></span></span></a></div>
+                <div class="sm-col-6 md-col-3"><a class="item image-item item-image-grayscale"
+                        href="images/trailer/five.jpg" data-lightbox-gallery="items" data-caption="<b 
     
     
     
     >Tube Amplifier Upgrade</b>&nbsp;-&nbsp;Human tested explanation"><span class="item-image"><img
-                                    src="images/trailer/five.jpg" alt="" data-cover-image="true"></span><span
-                                class="item-content"><span class="item-back"></span><span class="item-icon"><i
-                                        class="fas fa-search"></i></span><span class="item-title">
-                                  </span><span class="item-text"></span></span></a></div>
-                    <div class="sm-col-6 md-col-3"><a class="item image-item item-image-grayscale"
-                            href="images/trailer/four.jpg" data-lightbox-gallery="items" data-caption="<b 
+                                src="images/trailer/five.jpg" alt="" data-cover-image="true"></span><span
+                            class="item-content"><span class="item-back"></span><span class="item-icon"><i
+                                    class="fas fa-search"></i></span><span class="item-title">
+                            </span><span class="item-text"></span></span></a></div>
+                <div class="sm-col-6 md-col-3"><a class="item image-item item-image-grayscale"
+                        href="images/trailer/four.jpg" data-lightbox-gallery="items" data-caption="<b 
     
     
     
     >Speakers Replacement</b>&nbsp;-&nbsp;Human tested explanation"><span class="item-image"><img
-                                    src="images/trailer/four.jpg" alt="" data-cover-image="true"></span><span
-                                class="item-content"><span class="item-back"></span><span class="item-icon"><i
-                                        class="fas fa-search"></i></span><span class="item-title"></span><span class="item-text"></span></span></a>
-                    </div>
-                    <div class="sm-col-6 md-col-3"><a class="item image-item item-image-grayscale"
-                            href="images/trailer/fourteen.jpg" data-lightbox-gallery="items" data-caption="<b 
+                                src="images/trailer/four.jpg" alt="" data-cover-image="true"></span><span
+                            class="item-content"><span class="item-back"></span><span class="item-icon"><i
+                                    class="fas fa-search"></i></span><span class="item-title"></span><span
+                                class="item-text"></span></span></a>
+                </div>
+                <div class="sm-col-6 md-col-3"><a class="item image-item item-image-grayscale"
+                        href="images/trailer/fourteen.jpg" data-lightbox-gallery="items" data-caption="<b 
     
     
     
     >Record-player profilactic</b>&nbsp;-&nbsp;Human tested explanation"><span class="item-image"><img
-                                    src="images/trailer/fourteen.jpg" alt="" data-cover-image="true"></span><span
-                                class="item-content"><span class="item-back"></span><span class="item-icon"><i
-                                        class="fas fa-search"></i></span><span class="item-title">
-                                    </span><span class="item-text"></span></span></a>
-                    </div>
-                    <div class="sm-col-6 md-col-3"><a class="item image-item item-image-grayscale"
-                            href="images/trailer/nine.jpg" data-lightbox-gallery="items" data-caption="<b 
+                                src="images/trailer/fourteen.jpg" alt="" data-cover-image="true"></span><span
+                            class="item-content"><span class="item-back"></span><span class="item-icon"><i
+                                    class="fas fa-search"></i></span><span class="item-title">
+                            </span><span class="item-text"></span></span></a>
+                </div>
+                <div class="sm-col-6 md-col-3"><a class="item image-item item-image-grayscale"
+                        href="images/trailer/nine.jpg" data-lightbox-gallery="items" data-caption="<b 
     
     
     
     >Headphones repair</b>&nbsp;-&nbsp;Human tested explanation"><span class="item-image"><img
-                                    src="images/trailer/nine.jpg" alt="" data-cover-image="true"></span><span
-                                class="item-content"><span class="item-back"></span><span class="item-icon"><i
-                                        class="fas fa-search"></i></span><span class="item-title">
-                                    </span><span class="item-text"></span></span></a></div>
-                    <div class="sm-col-6 md-col-3"><a class="item image-item item-image-grayscale"
-                            href="images/trailer/one.jpg" data-lightbox-gallery="items" data-caption="<b 
+                                src="images/trailer/nine.jpg" alt="" data-cover-image="true"></span><span
+                            class="item-content"><span class="item-back"></span><span class="item-icon"><i
+                                    class="fas fa-search"></i></span><span class="item-title">
+                            </span><span class="item-text"></span></span></a></div>
+                <div class="sm-col-6 md-col-3"><a class="item image-item item-image-grayscale"
+                        href="images/trailer/one.jpg" data-lightbox-gallery="items" data-caption="<b 
     
     
     
     >Upgrade Tube Amplifier</b>&nbsp;-&nbsp;Human tested explanation"><span class="item-image"><img
-                                    src="images/trailer/one.jpg" alt="" data-cover-image="true"></span><span
-                                class="item-content"><span class="item-back"></span><span class="item-icon"><i
-                                        class="fas fa-search"></i></span><span class="item-title">
-                                    </span><span class="item-text"></span></span></a></div>
-                    <div class="sm-col-6 md-col-3"><a class="item image-item item-image-grayscale"
-                            href="images/trailer/seven.jpg" data-lightbox-gallery="items" data-caption="<b 
+                                src="images/trailer/one.jpg" alt="" data-cover-image="true"></span><span
+                            class="item-content"><span class="item-back"></span><span class="item-icon"><i
+                                    class="fas fa-search"></i></span><span class="item-title">
+                            </span><span class="item-text"></span></span></a></div>
+                <div class="sm-col-6 md-col-3"><a class="item image-item item-image-grayscale"
+                        href="images/trailer/seven.jpg" data-lightbox-gallery="items" data-caption="<b 
     
     
     
     >Marshall Replair</b>&nbsp;-&nbsp;Human tested explanation"><span class="item-image"><img
-                                    src="images/trailer/seven.jpg" alt="" data-cover-image="true"></span><span
-                                class="item-content"><span class="item-back"></span><span class="item-icon"><i
-                                        class="fas fa-search"></i></span><span class="item-title">
-                                    </span><span class="item-text"></span></span></a></div>
-                </div>
+                                src="images/trailer/seven.jpg" alt="" data-cover-image="true"></span><span
+                            class="item-content"><span class="item-back"></span><span class="item-icon"><i
+                                    class="fas fa-search"></i></span><span class="item-title">
+                            </span><span class="item-text"></span></span></a></div>
             </div>
-        </section>
+        </div>
+    </section>
 
 
-        <section class="main-bg tight solid-section" style="background-color: #f26521;">
-            <div class="container">
-                <div class="section-head offs-lg text-center container-md">
-                    <h5 class="section-title text-upper text-lg">Choose Royal Cinemas for personalized home theatre design, cutting-edge audiovisual systems, and flawless professional installation. Elevate your entertainment experience like never before.</h5>
-                    <div class="styled-separator"><img src="images/imagenew/separator-white.png" alt=""></div>
-                </div>
-               
+    <section class="main-bg tight solid-section" style="background-color: #f26521;">
+        <div class="container">
+            <div class="section-head offs-lg text-center container-md">
+                <h5 id="sample_translate_test" class="section-title text-upper text-lg">Choose Royal Cinemas for personalized home theatre design,
+                    cutting-edge audiovisual systems, and flawless professional installation. Elevate your entertainment
+                    experience like never before.</h5>
+                <div class="styled-separator"><img src="images/imagenew/separator-white.png" alt=""></div>
             </div>
-        </section>
 
-        <!-- <section class="with-bg solid-section">
+        </div>
+    </section>
+
+    <!-- <section class="with-bg solid-section">
             <div class="fix-image-wrap" data-image-src="./images/banner/home-sound-color.jpeg" data-parallax="scroll">
             </div>
             <div class="white-op-back"></div>
@@ -479,182 +542,290 @@
             </div>
         </section>
      -->
+    <div class="faq-area margin-bottom-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="faq-left">
+                        <div class="theme-heading-title">
+                            <div class="subtitle"> FAQ <img class="bullet" src="assets/img/shapes/bullet.png" alt="">
+                            </div>
+                            <h3 class="title">frequently asked
+                                questions </h3>
 
-        <div class="container content-section">
-            <div class="row cols-lg rows-lg">
-                <div class="sm-col-6">
-                    <section>
-                        <h2 class="text-upper">How to find us</h2>
-                        <p class="offs-lg">Our goal is to provide the best customer service and to answer all of your
-                            questions in a timely manner.</p>
-                        <div class="rows-md">
-                            <div class="row cols-md rows-md">
-                                <div class="md-col-6">
-                                    <div class="info-item">
-                                        <div class="icon"><img src="images/imagenew/phone.png" alt=""></div>
-                                        <div class="text"><a href="tel:+919645199333">+919645199333</a></div>
-                                    </div>
-                                </div>
-                                <div class="md-col-6">
-                                    <div class="info-item">
-                                        <div class="icon"><img src="images/imagenew/viber.png" alt=""></div>
-                                        <div class="text"><a href="tel:+919645199333">+919645199333</a></div>
-                                    </div>
-                                </div>
+                            <div class="faq-experience">
+                                <ul>
+                                    <li>
+                                        <i aria-hidden="true" class=""></i>
+                                        <p><span></span>Newly Launched Team with Experience in Kerala</p>
+                                    </li>
+                                    <li>
+                                        <i aria-hidden="true" class=""></i>
+
+                                        <p><span></span>Well Trained Team</p>
+                                    </li>
+                                    <li>
+                                        <i aria-hidden="true" class=""></i>
+                                        <p><span></span>All Over Kerala Services</p>
+                                    </li>
+                                </ul>
                             </div>
-                            <div class="row cols-md rows-md">
-                                <div class="md-col-6">
-                                    <div class="info-item">
-                                        <div class="icon"><img src="images/imagenew/skype.png" alt=""></div>
-                                        <div class="text"><a href="tel:+919645199333">+919645199333</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="faq-part">
+                        <div class="accordion-wrap">
+                            <div id="accordion-27453">
+                                <div class="card single-accordion-inner">
+                                    <div class="card-header" id="headingOne_464288">
+                                        <a class="collapsed" data-toggle="collapse" role="button"
+                                            data-target="#collapseOne_464288" aria-expanded="false"
+                                            aria-controls="collapseOne_464288">
+                                            <span>1.</span>
+                                            Can Royal Cinemas customize the home theater setup according to my
+                                            preferences?
+
+                                        </a>
                                     </div>
-                                </div>
-                                <div class="md-col-6">
-                                    <div class="info-item">
-                                        <div class="icon"><img src="images/imagenew/instagram.png" alt=""></div>
-                                        <div class="text">Services</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row cols-md rows-md">
-                                <div class="md-col-6">
-                                    <div class="info-item">
-                                        <div class="icon"><img src="images/imagenew/email.png" alt=""></div>
-                                        <div class="text"><a href="https://amigos-themes.com/cdn-cgi/l/email-protection"
-                                                class="__cf_email__"
-                                                data-cfemail="9ef7f0f8f1deedf1ebf0faf8f2ffecfbb0fdf1f3">[gmail]</a>
+                                    <div id="collapseOne_464288" class="collapse" data-parent="#accordion-27453">
+
+                                        <div class="card-body">
+                                            Yes, Royal Cinemas offers customizable options for your home theater setup.
+                                            They can work with you to design a system that meets your specific needs and
+                                            preferences.
                                         </div>
                                     </div>
                                 </div>
+
+                                <div class="card single-accordion-inner">
+                                    <div class="card-header" id="headingOne_847496">
+                                        <a class="collapsed" data-toggle="collapse" role="button"
+                                            data-target="#collapseOne_111" aria-expanded="false"
+                                            aria-controls="collapseOne_111">
+                                            <span>2.</span>
+                                            What is the process of getting a home theater setup by Royal Cinemas?
+
+                                        </a>
+                                    </div>
+                                    <div id="collapseOne_111" class="collapse show" data-parent="#accordion-27453">
+
+                                        <div class="card-body">
+                                            To get a home theater setup by Royal Cinemas, you can contact them through
+                                            their website or by phone. They will schedule a visit to your home to assess
+                                            the space and discuss your requirements.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card single-accordion-inner">
+                                    <div class="card-header" id="headingOne_969747">
+                                        <a class="collapsed" data-toggle="collapse" role="button"
+                                            data-target="#collapseOne_969747" aria-expanded="false"
+                                            aria-controls="collapseOne_969747">
+                                            <span>3.</span>
+                                            How long does the home theater setup process take?
+
+                                        </a>
+                                    </div>
+                                    <div id="collapseOne_969747" class="collapse" data-parent="#accordion-27453">
+
+                                        <div class="card-body">
+                                            The duration of the home theater setup process can vary depending on the
+                                            complexity of the project and the size of the space. Typically, it takes
+                                            around 2-3 weeks from initial consultation to complete installation.</div>
+                                    </div>
+                                </div>
+
+
+
                             </div>
                         </div>
-                    </section>
-                </div>
-                <div class="sm-col-6">
-                    <section class="block-md sm-fix-container muted-bg" id="contact-us-form">
-                        <h5 class="offs-md">Send Us a Message</h5>
-                        <form>
-                            <div class="field-group">
-                                <div class="field-wrap"><input class="field-control" name="name" placeholder="Name"
-                                        required="required"> <span class="field-back"></span></div>
-                            </div>
-                            <div class="field-group">
-                                <div class="field-wrap"><input class="field-control" name="email" type="email"
-                                        placeholder="Email" required="required"> <span class="field-back"></span></div>
-                            </div>
-                            <div class="field-group">
-                                <div class="field-wrap"><input class="field-control" name="subject"
-                                        placeholder="Subject" required="required"> <span class="field-back"></span>
-                                </div>
-                            </div>
-                            <div class="field-group">
-                                <div class="field-wrap"><textarea class="field-control" name="message"
-                                        placeholder="Message" required="required"></textarea> <span
-                                        class="field-back"></span></div>
-                            </div>
-                            <div class="btn-block"><button class="btn text-upper" type="submit">send message</button>
-                            </div>
-                        </form>
-                    </section>
+                    </div>
                 </div>
             </div>
         </div>
-        
-        <!-- Watching Movies Details End Here -->
-        <!-- Zooks Promos Start Here -->
-       
-        <!-- Zooks Promos End Here -->
-        <!-- Footer Start Here -->
-        <footer>
-            <div class="footer-top-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-2 col-sm-4 col-xs-12 text-center">                            
-                            <div class="widget">
-                                <div class="footer-one">
-                                    <a href="index.html"><img src="images/trailer/six.jpg" alt=""></a>
-                                    <p>Vytila </p>
-                                    <p><a href="tel:+919645199333">+919645199333</a></strong> </p>
+    </div>
+
+
+    <div class="container content-section">
+        <div class="row cols-lg rows-lg">
+            <div class="sm-col-6">
+                <section>
+                    <h2 class="text-upper">How to find us</h2>
+                    <p class="offs-lg">Our goal is to provide the best customer service and to answer all of your
+                        questions in a timely manner.</p>
+                    <div class="rows-md">
+                        <div class="row cols-md rows-md">
+                            <div class="md-col-6">
+                                <div class="info-item">
+                                    <div class="icon"><img src="images/imagenew/phone.png" alt=""></div>
+                                    <div class="text"><a href="tel:+919645199333">+919645199333</a></div>
+                                </div>
+                            </div>
+                            <div class="md-col-6">
+                                <div class="info-item">
+                                    <div class="icon"><img src="images/imagenew/viber.png" alt=""></div>
+                                    <div class="text"><a href="tel:+919645199333">+919645199333</a></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-2 col-sm-4 col-xs-12">                            
-                            <div class="widget">
-                                <div class="footer-two">
-                                    <div style="color: #f26521;" class="widget-title">Royal Cinema</div>
-                                    <ul>
-                                        <li><a href="">About</a></li>
-                                        <li><a href="">Services</a></li>
-                                        <li><a href="">Gallery</a></li>
-                                        <li><a href="">Contact us</a></li>
-                                       
-                                    </ul>
+                        <div class="row cols-md rows-md">
+                            <div class="md-col-6">
+                                <div class="info-item">
+                                    <div class="icon"><img src="images/imagenew/skype.png" alt=""></div>
+                                    <div class="text"><a href="tel:+919645199333">+919645199333</a></div>
+                                </div>
+                            </div>
+                            <div class="md-col-6">
+                                <div class="info-item">
+                                    <div class="icon"><img src="images/imagenew/instagram.png" alt=""></div>
+                                    <div class="text">Services</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-2 col-sm-4 col-xs-12">                            
-                            <div class="widget">
-                                <div class="footer-three">
-                                    <div style="color: #f26521;" class="widget-title">Our Sevices</div>
-                                    <ul>
-                                        <li><a href="">About</a></li>
-                                        <li><a href="">Services</a></li>
-                                        <li><a href="">Gallery</a></li>
-                                        <li><a href="">Contact us</a></li>
-                                       
-                                    </ul>
+                        <div class="row cols-md rows-md">
+                            <div class="md-col-6">
+                                <div class="info-item">
+                                    <div class="icon"><img src="images/imagenew/email.png" alt=""></div>
+                                    <div class="text"><a href="https://amigos-themes.com/cdn-cgi/l/email-protection"
+                                            class="__cf_email__"
+                                            data-cfemail="9ef7f0f8f1deedf1ebf0faf8f2ffecfbb0fdf1f3">[gmail]</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-2 col-sm-6 col-xs-12">                            
-                            <div class="widget">
-                                <div style="color: #f26521;" class="footer-four">
-                                    <div style="color: #f26521;" class="widget-title">Follow Us</div>
-                                    <ul>
-                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
-                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
-                                        <li><a href="#"><i class="fa fa-flickr" aria-hidden="true"></i> Fliker</a></li>
-                                    </ul>
-                                </div>
+                    </div>
+                </section>
+            </div>
+            <div class="sm-col-6">
+                <section class="block-md sm-fix-container muted-bg" id="contact-us-form">
+                    <h5 class="offs-md">Send Us a Message</h5>
+                    <form>
+                        <div class="field-group">
+                            <div class="field-wrap"><input class="field-control" name="name" placeholder="Name"
+                                    required="required"> <span class="field-back"></span></div>
+                        </div>
+                        <div class="field-group">
+                            <div class="field-wrap"><input class="field-control" name="email" type="email"
+                                    placeholder="Email" required="required"> <span class="field-back"></span></div>
+                        </div>
+                        <div class="field-group">
+                            <div class="field-wrap"><input class="field-control" name="subject" placeholder="Subject"
+                                    required="required"> <span class="field-back"></span>
                             </div>
                         </div>
-                     
+                        <div class="field-group">
+                            <div class="field-wrap"><textarea class="field-control" name="message" placeholder="Message"
+                                    required="required"></textarea> <span class="field-back"></span></div>
+                        </div>
+                        <div class="btn-block"><button class="btn text-upper" type="submit">send message</button>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Watching Movies Details End Here -->
+    <!-- Zooks Promos Start Here -->
+
+    <!-- Zooks Promos End Here -->
+    <!-- Footer Start Here -->
+    <footer>
+        <div class="footer-top-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-2 col-sm-4 col-xs-12 text-center">
+                        <div class="widget">
+                            <div class="footer-one">
+                                <a href="index.html"><img src="images/trailer/six.jpg" alt=""></a>
+                                <p>Vytila </p>
+                                <p><a href="tel:+919645199333">+919645199333</a></strong> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-2 col-sm-4 col-xs-12">
+                        <div class="widget">
+                            <div class="footer-two">
+                                <div style="color: #f26521;" class="widget-title">Royal Cinema</div>
+                                <ul>
+                                    <li><a href="">About</a></li>
+                                    <li><a href="">Services</a></li>
+                                    <li><a href="">Gallery</a></li>
+                                    <li><a href="">Contact us</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-2 col-sm-4 col-xs-12">
+                        <div class="widget">
+                            <div class="footer-three">
+                                <div style="color: #f26521;" class="widget-title">Our Sevices</div>
+                                <ul>
+                                    <li><a href="">About</a></li>
+                                    <li><a href="">Services</a></li>
+                                    <li><a href="">Gallery</a></li>
+                                    <li><a href="">Contact us</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-2 col-sm-6 col-xs-12">
+                        <div class="widget">
+                            <div style="color: #f26521;" class="footer-four">
+                                <div style="color: #f26521;" class="widget-title">Follow Us</div>
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+                                    <li><a href="#"><i class="fa fa-flickr" aria-hidden="true"></i> Fliker</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom" style="background-color: #f26521;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                        <div class="footer-text" style="background-color: #f26521;">
+                            <p>Royal Cinemas <i class="flaticon-shapes"></i> by <a style="color: #fff;"
+                                    href="https://www.houseofbranding.in/">HoB</a> </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom" style="background-color: #f26521;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                            <div class="footer-text" style="background-color: #f26521;">
-                                <p>Royal Cinemas <i class="flaticon-shapes"></i> by <a style="color: #fff;" href="https://www.houseofbranding.in/">HoB</a> </p>
-                            </div>
-                        </div>                        
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Footer End Here -->
-        <!-- all js here -->
-        <!-- jquery latest version -->
-        <script src="js/vendor/jquery-1.12.0.min.js"></script>
-        <!-- bootstrap js -->
-        <script src="js/bootstrap.min.js"></script>
-        <!-- owl.carousel js -->
-        <script src="js/owl.carousel.min.js"></script>
-        <!-- meanmenu js -->
-        <script src="js/jquery.meanmenu.js"></script>
-        <!-- jquery-ui js -->
-        <script src="js/jquery-ui.min.js"></script>
-        <!-- wow js -->
-        <script src="js/wow.min.js"></script>
-        <!-- plugins js -->
-        <script src="js/plugins.js"></script>
-        <!-- jQuery MixedIT Up -->
-        <script src="js/jquery.mixitup.min.js" type="text/javascript"></script>
-        <!-- main js -->
-        <script src="js/main.js"></script>
-    </body>
+        </div>
+    </footer>
+    <!-- Footer End Here -->
+    <!-- all js here -->
+    <!-- jquery latest version -->
+    <script src="js/vendor/jquery-1.12.0.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- owl.carousel js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- meanmenu js -->
+    <script src="js/jquery.meanmenu.js"></script>
+    <!-- jquery-ui js -->
+    <script src="js/jquery-ui.min.js"></script>
+    <!-- wow js -->
+    <script src="js/wow.min.js"></script>
+    <!-- plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- jQuery MixedIT Up -->
+    <script src="js/jquery.mixitup.min.js" type="text/javascript"></script>
+    <!-- main js -->
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/google-translate-api/2.3.0/google-translate-api.min.js"></script>
+    <script src="./index.js"></script>
+</body>
 
 <!-- Mirrored from soyonexpress.com/html-demos/zooks/theme/cinema/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Jul 2023 10:29:21 GMT -->
+
 </html>
