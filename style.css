@@ -466,7 +466,7 @@ ul {
 3.Slider Area Start Here 
 ---------------------------------------*/
 .slider-area {
-  background: url(images/trailer/one.jpg) no-repeat center;
+  background: url(images/trailer/slidertwo.jpg) no-repeat center;
   background-size: cover;
   width: 100%;
   overflow: hidden;
@@ -481,7 +481,7 @@ ul {
   font-family: 'Lato', sans-serif;
   font-size: 85px;
   line-height: 0;
-  color: red;
+  color: #f26521;
   text-transform: capitalize;
 }
 .slider-area .slider-content .single-slide-content h2 {
@@ -3920,7 +3920,7 @@ body.body .text-muted {
 .feature-solid-heading,
 .feature-solid {
   background: #f26521;
-  height: 360px;
+  height: 540px;
   padding: 20px;
   width: 100%;
 }
@@ -7214,7 +7214,7 @@ body.body .text-muted {
 .feature-solid-heading,
 .feature-solid {
   background: #f26521;
-  height: 360px;
+  height: 540px;
   padding: 20px;
   width: 100%;
 }
@@ -24626,7 +24626,7 @@ ul.blocks-gallery-grid li:before {
 
   }
   /* .whatsapp-msg-sticky{
-    color: red;
+    color: #f26521;
     position: fixed;
     z-index: 4000;
     margin-top: 60vh;
