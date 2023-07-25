@@ -26899,3 +26899,214 @@ input:checked + .slider:before {
   margin-left: -60px;
   border-radius: 100%;
 }
+.social-menu .social-dropdownp{
+    opacity: 0;
+    right: 0;
+    right: 0;
+    transform: translate(-77px,32px);
+    transition: all ease 400ms;
+    font-size: .8em;
+}
+.social-menu .social-dropdownw{
+    opacity: 0;
+    right: 0;
+    right: 0;
+    transform: translate(-77px,-97px);
+    transition: all ease 400ms;
+    font-size: 1em;
+}
+.social-dropdown li a{
+    font-size: 1rem;
+    
+}
+.whatsli{
+    margin-bottom: 23px !important;
+}
+.social-dropdown li{
+    
+    transition: all ease 400ms;
+}
+.social-menu ul {
+    z-index: 99999;
+    font-size: 1.7em;
+    position: absolute;
+    bottom: -5%;
+    right: 24px;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: block;
+    position: fixed;}
+    .social-menu ul li {
+        list-style: none;
+        margin-bottom: 15px;}
+        .social-menu ul li a {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #fff;
+            text-align: center;
+            color: #f26521;
+            transition: .6s;
+            box-shadow: 0 5px 4px rgba(0,0,0,.5);
+        }
+        .social-menu ul li{
+            color: #f26521;
+            cursor: pointer;
+        }
+        .whatsli:hover .social-dropdownw{
+          opacity: 1;
+          display: block !important;
+      }
+      .whatsli{
+        margin-bottom: 23px !important;
+    }     
+    .phonli:hover .social-dropdownp{
+      opacity: 1;
+      display: block !important;
+  }
+  .preloader {
+    background-color: #4a6f8e;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 999999;
+    overflow: hidden;
+  }
+  .preloader .vertical-centered-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .preloader .vertical-centered-box:after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+  }
+  .preloader .vertical-centered-box .content {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 0;
+  }
+  .preloader * {
+    transition: all 0.3s;
+  }
+  .preloader .loader-circle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+    margin-left: -60px;
+    margin-top: -60px;
+  }
+  .preloader .loader-line-mask {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 60px;
+    height: 120px;
+    margin-left: -60px;
+    margin-top: -60px;
+    overflow: hidden;
+    transform-origin: 60px 60px;
+    -webkit-mask-image: -webkit-linear-gradient(top, #000000, rgba(0, 0, 0, 0));
+    -webkit-animation: rotate 1.2s infinite linear;
+    animation: rotate 1.2s infinite linear;
+  }
+  .preloader .loader-line-mask .loader-line {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+  }
+  .preloader #particles-background,
+  .preloader #particles-foreground {
+    left: -51%;
+    top: -51%;
+    width: 202%;
+    height: 202%;
+    transform: scale3d(0.5, 0.5, 1);
+  }
+  .preloader #particles-background {
+    background: #2c2d44;
+    background-image: linear-gradient(45deg, #3f3251 2%, #002025 100%);
+  }
+  .preloader lesshat-selector {
+    -lh-property: 0;
+  }
+  @-webkit-keyframes rotate {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .preloader [not-existing] {
+    zoom: 1;
+  }
+  .preloader lesshat-selector {
+    -lh-property: 0;
+  }
+  @-webkit-keyframes fade {
+    0% { 
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.25;
+    }
+  }
+  @keyframes fade {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.25;
+    }
+  }
+  .preloader [not-existing] {
+    zoom: 1;
+  }
+  .preloader lesshat-selector {
+    -lh-property: 0;
+  }
+  @-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .preloader [not-existing] {
+    zoom: 1;
+  }
