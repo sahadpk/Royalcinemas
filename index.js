@@ -83,7 +83,17 @@ const paragraphs = [
     id:'ansr5',
     englishContent:'The minimum budget required for a home theater setup by Royal Cinemas depends on various factors, such as the size of the room, equipment choices, and customization options. It is best to contact Royal Cinemas for a personalized quote based on your specific requirements.',
     malayalamContent:'റോയൽ സിനിമാസിന്റെ ഹോം തിയറ്റർ സജ്ജീകരണത്തിന് ആവശ്യമായ ഏറ്റവും കുറഞ്ഞ ബജറ്റ് മുറിയുടെ വലുപ്പം, ഉപകരണങ്ങളുടെ തിരഞ്ഞെടുപ്പുകൾ, ഇഷ്‌ടാനുസൃതമാക്കൽ ഓപ്ഷനുകൾ എന്നിങ്ങനെ വിവിധ ഘടകങ്ങളെ ആശ്രയിച്ചിരിക്കുന്നു. നിങ്ങളുടെ നിർദ്ദിഷ്ട ആവശ്യകതകളെ അടിസ്ഥാനമാക്കിയുള്ള ഒരു വ്യക്തിഗത ഉദ്ധരണിക്ക് റോയൽ സിനിമാസുമായി ബന്ധപ്പെടുന്നതാണ് നല്ലത്.'
-    }
+    },
+    
+
+  {
+    id:'aboutsecond',
+    englishContent:'your premier destination for transforming your home entertainment into an extraordinary cinematic journey. With an unwavering commitment to delivering unparalleled expertise and a personalized touch, we specialize in crafting bespoke home theater systems that harmoniously merge cutting-edge technology, luxurious comfort, and captivating style. Get ready to immerse yourself in a world of unparalleled visual and audio bliss as we bring the magic of the movies right to your doorstep.',
+    malayalamContent:'നിങ്ങളുടെ വീട്ടിലെ വിനോദത്തെ അസാധാരണമായ ഒരു സിനിമാറ്റിക് യാത്രയാക്കി മാറ്റുന്നതിനുള്ള നിങ്ങളുടെ പ്രധാന ലക്ഷ്യസ്ഥാനം. സമാനതകളില്ലാത്ത വൈദഗ്ധ്യവും വ്യക്തിഗത സ്പർശനവും നൽകുന്നതിനുള്ള അചഞ്ചലമായ പ്രതിബദ്ധതയോടെ, അത്യാധുനിക സാങ്കേതികവിദ്യയും ആഡംബരപൂർണമായ സുഖസൗകര്യങ്ങളും ആകർഷകമായ ശൈലിയും സമന്വയിപ്പിച്ച് അനുയോജ്യമായ ഹോം തിയറ്റർ സംവിധാനങ്ങൾ തയ്യാറാക്കുന്നതിൽ ഞങ്ങൾ വൈദഗ്ദ്ധ്യം നേടിയിട്ടുണ്ട്. സിനിമകളുടെ മാസ്മരികത ഞങ്ങൾ നിങ്ങളുടെ വീട്ടുവാതിൽക്കൽ എത്തിക്കുമ്പോൾ സമാനതകളില്ലാത്ത ദൃശ്യ-ശ്രവ്യ ആനന്ദത്തിന്റെ ലോകത്ത് മുഴുകാൻ തയ്യാറാകൂ.'
+  }
+
+
+
 
 
   
